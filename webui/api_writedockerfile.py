@@ -37,6 +37,8 @@ def write_docker_file_with_nos_ports(base_image_name:str, passwd:str, ports:list
 
     contents = f"""FROM {base_image_name}
 
+RUN echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99ignore-release-date
+
 RUN apt-get update && \
     apt-get install -y openssh-server && \
     apt-get clean && \
