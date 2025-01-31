@@ -17,12 +17,6 @@ Download the **docker** from the offical page https://docs.docker.com/get-docker
 
     pip install -r requirements.txt
 
-### Use startup_script for Unix systems
-    ./start_webui.sh
-
-### Use startup_script for Windows
-    .\start_webui.bat
-
 
 ## Run the script (cli mode)
 
@@ -31,6 +25,10 @@ Download the **docker** from the offical page https://docs.docker.com/get-docker
 ## Run the webui
 
         python ./webui/app.py
+
+## Run the api
+
+        python ./api/main.py
 
 ## Warning !!
 - This program runs on top of the docker api
