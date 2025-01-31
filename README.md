@@ -24,11 +24,11 @@ Download the **docker** from the offical page https://docs.docker.com/get-docker
 
 ## Run the webui
 
-        python ./webui/app.py
+    python ./webui/app.py
 
 ## Run the api
 
-        python ./api/main.py
+    python ./api/main.py
 
 ## Warning !!
 - This program runs on top of the docker api
